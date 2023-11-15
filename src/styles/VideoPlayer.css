@@ -1,0 +1,40 @@
+#video-player {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#video-player video {
+    width: 100%;
+    height: auto;
+}
+
+#video-player .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+}
+
+#video-player .controls button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#video-player .controls .progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+#video-player .controls .progress-bar .progress {
+    height: 100%;
+    background-color: #007bff;
+}

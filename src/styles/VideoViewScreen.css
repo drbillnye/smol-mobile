@@ -1,0 +1,25 @@
+.video-view-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-view-screen .video-player {
+    width: 100%;
+    height: auto;
+}
+
+.video-view-screen .editable-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.video-view-screen .transcript {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}

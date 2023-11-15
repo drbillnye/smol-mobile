@@ -1,0 +1,44 @@
+#topic-view-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.topic-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.topic-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.topic-card img {
+    width: 100%;
+    height: auto;
+}
+
+.topic-card .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.topic-card .summary {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.topic-card .date-added {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+}

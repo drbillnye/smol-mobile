@@ -1,0 +1,35 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.video-grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.video-grid-item h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.video-grid-item p {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
